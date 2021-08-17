@@ -1,0 +1,150 @@
+h1 {
+	font-style:italic;
+	font-size:28px;
+	background:#CCC;
+	border:#000;
+	text-align:center;	
+}
+@media screen and (max-width: 959px){
+#container1{
+    width: 100%;
+	}
+}
+#container1 {
+    width: 960px;
+    margin: 0px auto;
+}
+@media screen and (max-width: 959px){
+#left-column1 {
+    width: 100%;
+	}
+}
+#left-column1 {
+    width: 955px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    /* float: left; */
+    background: rgb(226, 226, 241);
+}
+section {
+    padding: 5rem 0;
+}
+.contact-left-block {
+    float: left;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.contact-left-block .heading-underline {
+    clear: both;
+    display: block;
+    float: left;
+    height: 1px;
+    border-bottom: #989898 1px solid;
+    width: 50%;
+    margin-top: 13px;
+}
+.contact-left-block p {
+    color: #7E7E7E;
+    display: inline;
+    /* float: left; */
+    font-size: 13px;
+    line-height: 20px;
+    /* margin-top: 24px; */
+    /* text-align: justify; */
+    clear: both;
+}
+@media screen and (min-width: 768px){
+.contact-content {
+    justify-content: space-between;
+}
+}
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 768px){
+.traveler-wrap {
+    display: block;
+    flex: 0 0 45%;
+    margin-left: 60px;
+}
+}
+.traveler-wrap {
+    padding-left: 60px;
+}
+@media screen and (min-width: 768px){
+.contact-form {
+    flex: 0 0 50%;
+    align-self: flex-start;
+}
+}
+.contact-form {
+    width: 100%;
+    background-color: #17a2b8;
+    padding: 2.5rem;
+}
+@media screen and (min-width: 768px){
+.input-group-wrap {
+    display: flex;
+}
+}
+@media screen and (min-width: 768px){
+.input-group-wrap .input-group {
+    width: 50%;
+    margin-right: 2rem;
+}
+}
+.input-group {
+    margin-bottom: 1.5rem;
+}
+.contact-form .input {
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    font-weight: normal;
+    border-bottom: 2px solid #fff;
+    padding-left: 0;
+}
+.input, .options {
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1rem;
+    font-weight: normal;
+    color: #a5a5a5;
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    resize: none;
+}
+.bar {
+    display: block;
+    position: relative;
+}
+.bar::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+@media screen and (min-width: 768px){
+.input-group-wrap .input-group:last-child {
+    margin-right: 0;
+}
+}
+.btn-purple {
+    background-color: green;
+    transition: background-color .5s;
+}
+.form-btn {
+    margin-top: 2.5rem;
+    cursor: pointer;
+}

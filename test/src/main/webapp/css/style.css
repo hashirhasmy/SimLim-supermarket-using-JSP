@@ -1,0 +1,20 @@
+.dots {
+    font-size: 1rem;
+}
+.bg-primary {
+    background-color: #f4623a !important;
+}
+h6{
+    text-align: center;
+    color: #4b5156;
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: darkred;
+}
+p2{
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
